@@ -1,0 +1,19 @@
+/*write a code to design a webpage */
+body{
+     background:black;
+}
+h2{
+    color:white;
+    background-color: darkblue;
+}
+label{
+    color:rgb(37, 40, 201);
+}
+a{
+    color:darkred;
+}
+.img1{
+    border-radius: 100px;
+    height: 200px;
+    width:200px;
+}

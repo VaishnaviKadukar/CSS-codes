@@ -1,0 +1,17 @@
+/*write a program to demo of fonts in css*/
+.pid1{
+    font-family: sans-serif;
+}
+.pid2{
+    font-family: arial;
+}
+.pid3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pid4{
+    font-family: cursive;
+}
+.pid5{
+    font-size:1in;
+    font-weight: 500;
+} 

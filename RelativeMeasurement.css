@@ -1,0 +1,33 @@
+/*write a code to demo of Relative measurment
+ Relative ------vh,em/rem,pc,vh,vw,%*/
+ 
+ .divvalue-1{
+    height :20vh;
+    width :20vh;
+   background-color:brown;
+}
+.divvalue-2{
+    height :10em;
+    width :10rem;
+   background-color:rgb(52, 165, 67);
+}
+.divvalue-3{
+    height :10pc;
+    width :10pc;
+   background-color:rgb(30, 42, 150);
+}
+.divvalue-4{
+    height :20vh;
+    width :20vh;
+   background-color:rgb(110, 182, 17);
+}
+.divvalue-5{
+    height :10vw;
+    width :10vw;
+   background-color:rgb(52, 165, 67);
+}
+.divvalue-6{
+    height :20%;
+    width :10%;
+   background-color:rgb(30, 42, 150);
+}

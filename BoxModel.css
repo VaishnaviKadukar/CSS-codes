@@ -1,0 +1,40 @@
+/* Write a code to demo of BoxModel in css
+1.border
+2.padding
+3.margin
+ */
+
+/*1.border --which present outside the content 
+border : style size;*/
+ .img1{
+     border:solid 10px;
+     border-color: rgb(7, 40, 224);
+ }
+
+ /*2.padding--space between border and content */
+ .img2{
+    border:solid 10px;
+    border-color: rgb(7, 40, 224);
+    /* padding:5px; */
+    /* padding:5px 10px; */ 
+    /* top right bottom left*/
+    padding:5px 10px 15px 20px;
+}
+
+/* 3.margin--space from outsise your border */
+.img3{
+       border:solid 10px;
+       border-color: rgb(7, 40, 224);
+    /* margin:5px; */
+    /* margin:5px 10px; */
+       margin:100px 10px 15px 20px;
+
+}
+/* floats in css */
+.img4{
+    float :right;
+}
+
+
+
+

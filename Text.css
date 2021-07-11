@@ -1,0 +1,42 @@
+/*write a code to demo of text in css*/
+
+.id1{
+    text-decoration: none;
+    color:chartreuse;
+}
+
+.id2{
+    text-decoration: line-through;
+    color:rgb(42, 24, 202);
+}
+
+.id3{
+    text-decoration: dotted;
+    color:rgb(0, 255, 157);
+}
+
+.id4{
+    text-decoration: overline;
+    color:rgb(255, 153, 0);
+}
+
+.h1id1{
+text-transform: capitalize;
+}
+
+.h1id2{
+    text-transform:uppercase;
+}
+
+.h1id3{
+     text-transform:lowercase;
+}
+.h1id4{
+      text-transform:unset;
+}  
+.h1id5{
+     text-align: center;
+}  
+.h1id6{
+     text-align: justify;
+}     

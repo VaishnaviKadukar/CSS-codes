@@ -1,0 +1,17 @@
+/* write a code to demo of background images*/
+
+/*apply image on entire webpage
+body{
+ background:url("/Images/png.png");
+}
+*/
+.container{
+    height:500px;
+    width:500px;
+    background:url("/Images/png.png");
+    background-color: tomato;
+    /*background-size: 500px,500px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-size:contain;*/
+}

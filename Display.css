@@ -1,0 +1,12 @@
+/* write a code to demo of display in css  */
+.img1{
+     display:none; /*then image not display on webpage */
+}
+
+ .img2{
+    display:block;
+} 
+
+.p1{
+    display:inline;
+}

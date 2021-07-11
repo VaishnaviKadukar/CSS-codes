@@ -1,0 +1,20 @@
+/*first method just use tag in which tag you want to apply css
+selctor{
+    property:value;
+}
+ */
+
+h1{
+    color : red;
+}
+
+/*second method   use of id (# represents id) */
+#h2tag{
+    color:blueviolet;
+}
+
+/*third method   use of class( . represents id) */
+.h3tag{
+    color :chartreuse;
+}
+

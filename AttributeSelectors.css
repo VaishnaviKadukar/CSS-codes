@@ -1,0 +1,57 @@
+/* write a code to demo of Attribute selector in css
+element[attribute:value]{
+}
+*/
+
+h1[class=classvalue]
+{
+    
+    background: black;
+    color: blueviolet;
+}
+/*---------------------------------*/
+img[src="Images/images (1).jpg"]
+{
+    border: 1px solid red;
+}
+/* ^-- means represent start with*/
+img[src^="./Images/"]
+{
+    border: 10px solid black;
+}
+/* $-- means represent end with*/
+img[src $=".png"]
+{
+    border: 5px solid purple;
+}
+/*   *-- means represent in the path if cartoon text is anywhere there then this property apply to it*/
+img[src *="cartoon"]
+{
+    border: 5px solid blue;
+}
+/* if we apply property to hole webpage*/
+
+    body{
+        background-color:  rosybrown;
+    }
+ /* now we apply attribute selctor on hyperlinks*/
+a[href ="PseudoSelector.html"]
+{
+    color: red;
+}  
+ a[href^="/"]
+ {
+     color:green;
+ }
+
+ a[href$=".png"]
+ {
+     color:yellow;
+ }
+
+ a[href*="cartoon"]
+ {
+     color:teal;
+ }
+
+

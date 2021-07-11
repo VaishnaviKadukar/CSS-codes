@@ -1,0 +1,21 @@
+/*
+external
+1.  h1{
+      }
+2  .#idvalue{
+            }
+               
+3. .classvalue{
+              } 
+        
+*/
+h1{
+    color:red
+}
+
+/* #idvalue{
+    color:darkmagenta;/*from three id get first privority
+}*/
+.classvalue{
+    color:darkorange;/*from two class get first priviority*/
+}

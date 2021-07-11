@@ -1,0 +1,22 @@
+/*write a code to demo of gradients*/
+body{
+    background :linear-gradient(to right, rgb(147, 192, 40), rgb(119, 88, 190));/* you can choose to right,to left,to top,to bottom*/
+}
+.container-1{
+    height:200px;
+    width:200px;
+    background :linear-gradient(to right,red ,green,blue,yellow) ;
+}
+
+.container-2{
+    height:300px;
+    width:300px;
+   /* background :linear-gradient(to right, rgb(171, 91, 79), rgb(245, 36, 3,1));/* you can choose to right,to left,to top,to bottom*/
+    background :linear-gradient(90deg,rgb(171, 91, 79), rgb(245, 36, 3,1));/* you can choose to right,to left,to top,to bottom*/
+}
+.container-3{
+    height:300px;
+    width:300px;
+   /* background :radial-gradient(red, yellow, blue, violet );*/
+      background :radial-gradient(red 30%, yellow 50%, blue 10%, violet 10% );
+}

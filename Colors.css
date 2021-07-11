@@ -1,0 +1,30 @@
+/*write a code to demo of color in css
+1.color
+2.id
+3.rgb value
+4.rgba value
+*/
+.container-1{
+    height: 100px;
+    width:  100px;
+    background-color: yellow;/*color*/
+}
+.container-2{
+    height: 100px;
+    width:  100px;
+    background-color:#cfab48;/*id*/
+}
+.container-3{
+    height: 100px;
+    width:  100px;
+    background-color: rgb(171, 91, 79);/*rgb*/
+}
+
+.conatiner-4{
+    height: 100px;
+    width:  100px;
+    background-color: rgba(204, 192, 0.5);/*rgb*/
+}
+
+
+

@@ -1,0 +1,38 @@
+/* write a code to demo of FlexBoxes in css */
+/* 1. display:flex; */
+/* 2.flex-direction: column/column-reverse/row:row-reverse/inherit/initial/unset */
+/* 3.flex-wrap:wrap/initial/wrap-reverse;*/
+/* 4.line-height: 50px;*/
+/* 5.justify-content:flex-end/flext-start/center/space-around/space-between/space-evently;*/
+/* 6.align-items:center ;
+/* 7.border-radius:10px*/
+/* 8.order:3;
+/* 9.flex-grow:3;,flex-shrink:2;,flex-basis:100px;*/
+/* 10.align-self:center;*/
+
+
+
+.container{
+    background-color: rgb(39, 182, 75);
+    /*1.*/display:flex;
+    /*2.flex-direction:row;*/ 
+    /*3.flex-wrap: wrap-reverse;*/
+    /*5.justify-content:space-evenly; */
+    /*6.align-items:flex-end; */
+    height:500px;
+    width:300px;
+   
+}
+
+.items {
+    background-color: rgb(172, 6, 6);
+    color:rgb(255, 255, 255);  
+    margin:10px;
+    height:30px;
+    width:70px;
+    padding:10px;
+    /*4.*/line-height: 30px;
+    /*7.border-radius:10px;---you can also apply on container*/
+    /*10.align-self: flex-end; */
+}  
+/*-----------------------------------------------------------------*/
